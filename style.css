@@ -1,0 +1,21 @@
+body {
+    background: rgb(186, 183, 194);
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+#lista-tarefa {
+    list-style-type: none;
+    padding: 0;
+}
+#lista-tarefa li {
+    cursor: pointer;
+    margin-bottom: 5px; 
+}
+#lista-tarefa li.completed {
+    text-decoration: line-through;
+}
